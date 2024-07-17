@@ -1,6 +1,6 @@
 from overrides import overrides
-from animal import Animal, Pet
-
+from animal import Animal
+from pet import Pet
 
 class Fish(Animal, Pet):
     def __init__(self, name: str, legs=0):
