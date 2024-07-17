@@ -1,10 +1,12 @@
-from animals.animal import Animal
-from animals.pet import Pet
 from overrides import overrides
+from Animal import Animal
+from Pet import Pet
 
-class Spider(Pet, Animal):
+
+class Spider(Animal, Pet):
     def __init__(self, name: str, legs=8):
         self.name = name
+        self.legs = legs
 
     @overrides
     def setName(self, name):

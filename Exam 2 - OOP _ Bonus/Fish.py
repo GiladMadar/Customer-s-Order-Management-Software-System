@@ -1,18 +1,20 @@
-from animals.animal import Animal
-from animals.pet import Pet
 from overrides import overrides
+from Animal import Animal
+from Pet import Pet
+
 
 class Fish(Animal, Pet):
-    def __init__(self, fish_name: str, legs=0):
-        self.fish_name = fish_name
+    def __init__(self, name: str, legs=0):
+        self.name = name
+        self.legs = legs
 
     @overrides
-    def setName(self, fish_name):
-        self.fish_name = fish_name
+    def setName(self, name):
+        self.name = name
 
     @overrides
     def getName(self):
-        return self.fish_name
+        return self.name
 
     @overrides
     def eat(self):
@@ -27,4 +29,4 @@ class Fish(Animal, Pet):
         print("The Fish is swimming now!")
 
     def __str__(self):
-        return f"Fish name: {self.fish_name}"
+        return f"Fish name: {self.name}"
