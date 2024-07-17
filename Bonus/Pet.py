@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 
-
 class Pet(ABC):
     @abstractmethod
     def play(self):
