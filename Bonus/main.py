@@ -2,17 +2,16 @@ from cat import Cat
 from fish import Fish
 from spider import Spider
 
-
 if __name__ == '__main__':
     # Testing the Animal class
     print("Testing Animal class:\n")
-
-    # Create instances
+    
+    # Create Animals
     cat1 = Cat("Kitty")
     fish1 = Fish("Nemo")
     spider1 = Spider("Spiderman")
 
-    # Print instances
+    # Print Animals
     print(f" - Cat 1: {cat1}\n")
     print(f" - Fish 1: {fish1}\n")
     print(f" - Spider 1: {spider1}\n")
