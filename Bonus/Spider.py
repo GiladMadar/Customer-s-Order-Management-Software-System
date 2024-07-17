@@ -1,6 +1,6 @@
 from overrides import overrides
-from animal import Animal, Pet
-
+from animal import Animal
+from pet import Pet
 
 class Spider(Animal, Pet):
     def __init__(self, name: str, legs=8):
