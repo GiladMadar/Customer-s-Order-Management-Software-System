@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
 
-# Abstract base classes
 class Animal(ABC):
     @abstractmethod
     def eat(self):
@@ -9,5 +8,3 @@ class Animal(ABC):
     @abstractmethod
     def walk(self):
         pass
-
-
