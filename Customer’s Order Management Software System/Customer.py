@@ -1,4 +1,7 @@
-class Customer:
+from New.Gift import Gift
+
+
+class Customer(Gift):
     def __init__(self, customer_id, first_name, last_name, email, delivery_address, customer_type, customer_discount=None):
         assert isinstance(customer_id, int), "Customer ID must be an integer."
         assert isinstance(first_name, str), "First name must be a string."
@@ -8,7 +11,7 @@ class Customer:
         assert customer_type in ["REGULAR", "VIP"], "Invalid customer type."
         # Customer discount Should be in percentage 0.[Percentage] or None
         assert customer_discount is None or (0 <= customer_discount <= 1), "Customer discount must be between 0 and 1."
-        
+
         self.id = customer_id
         self.first_name = first_name
         self.last_name = last_name

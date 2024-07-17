@@ -4,26 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b8613bd-3449-476d-b85f-349833c303fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Exam-2_OOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/New/Customer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/New/Gift.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/New/Order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/New/OrderItem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/New/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Old Exam 2/Old/Customer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Old Exam 2/Old/CustomerType.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Old Exam 2/Old/Order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Old Exam 2/Old/OrderAbs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Old Exam 2/Old/OrderType.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Old Exam 2/Old/Orders.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Old Exam 2/Old/PaymentType.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Old Exam 2/Old/main.py" afterDir="false" />
+    <list default="true" id="3b8613bd-3449-476d-b85f-349833c303fc" name="Changes" comment="Test">
+      <change afterPath="$PROJECT_DIR$/Customer’s Order Management Software System/Gift.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Customer’s Order Management Software System/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New/Customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Customer’s Order Management Software System/Customer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New/Gift.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/New/Order.py" beforeDir="false" afterPath="$PROJECT_DIR$/Customer’s Order Management Software System/Order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New/OrderItem.py" beforeDir="false" afterPath="$PROJECT_DIR$/Customer’s Order Management Software System/OrderItem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +120,19 @@
       <option name="presentableId" value="Default" />
       <updated>1721226651468</updated>
     </task>
+    <task id="LOCAL‎-00001" summary="Test">
+      <option name="closed" value="true" />
+      <created>1721235575188</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1721235575188</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
 </project>
